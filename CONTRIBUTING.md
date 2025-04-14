@@ -1,40 +1,40 @@
-## Contributing
+## Contwibuting
 
-[fork]: https://github.com/github/github-mcp-server/fork
-[pr]: https://github.com/github/github-mcp-server/compare
-[style]: https://github.com/github/github-mcp-server/blob/main/.golangci.yml
+[fowk]: https://gidub.com/gidub/gidub-mcp-sewvew/fowk
+[pw]: https://gidub.com/gidub/gidub-mcp-sewvew/compawe
+[stywe]: https://gidub.com/gidub/gidub-mcp-sewvew/bwob/main/.gowangci.ymw
 
-Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
+Hi dewe! uwu We'we dwiwwed dat you'd wike to contwibute to dis pwoject~ Youw hewp is essentiaw fow keeping it gweat.
 
-Contributions to this project are [released](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license) to the public under the [project's open source license](LICENSE).
+Contwibutions to dis pwoject awe [released](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license) to de pubwic undew de [project's open source license](LICENSE).
 
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+Pwease nyote dat dis pwoject is weweased wid a [Contributor Code of Conduct](CODE_OF_CONDUCT.md)~ By pawticipating in dis pwoject you agwee to abide by its tewms.
 
-## Prerequisites for running and testing code
+## Pwewequisites fow wunnying and testing code
 
-These are one time installations required to be able to test your changes locally as part of the pull request (PR) submission process.
+Dese awe onye time instawwations wequiwed to be abwe to test youw changes wocawwy as pawt of de puww wequest (PW) submission pwocess.
 
-1. install Go [through download](https://go.dev/doc/install) | [through Homebrew](https://formulae.brew.sh/formula/go)
-1. [install golangci-lint](https://golangci-lint.run/welcome/install/#local-installation)
+1~ instaww Go [through download](https://go.dev/doc/install) | [through Homebrew](https://formulae.brew.sh/formula/go)
+1~ [install golangci-lint](https://golangci-lint.run/welcome/install/#local-installation)
 
-## Submitting a pull request
+## Submitting a puww wequest
 
-1. [Fork][fork] and clone the repository
-1. Make sure the tests pass on your machine: `go test -v ./...`
-1. Make sure linter passes on your machine: `golangci-lint run`
-1. Create a new branch: `git checkout -b my-branch-name`
-1. Make your change, add tests, and make sure the tests and linter still pass
-1. Push to your fork and [submit a pull request][pr]
-1. Pat yourself on the back and wait for your pull request to be reviewed and merged.
+1~ [Fowk][fowk] and cwonye de wepositowy
+1~ Make suwe de tests pass on youw machinye: `go test -v ./...`
+1~ Make suwe wintew passes on youw machinye: `golangci-lint run`
+1~ Cweate a nyew bwanch: `git checkout -b my-branch-name`
+1~ Make youw change, add tests, and make suwe de tests and wintew stiww pass
+1~ Push to youw fowk and [submit a puww wequest][pw]
+1~ Pat youwsewf on de back and wait fow youw puww wequest to be weviewed and mewged.
 
-Here are a few things you can do that will increase the likelihood of your pull request being accepted:
+Hewe awe a few dings you can do dat wiww incwease de wikewihood of youw puww wequest being accepted:
 
-- Follow the [style guide][style].
-- Write tests.
-- Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
-- Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+- Fowwow de [stywe guide][stywe].
+- Wwite tests.
+- Keep youw change as focused as possibwe~ If dewe awe muwtipwe changes you wouwd wike to make dat awe nyot dependent upon each odew, considew submitting dem as sepawate puww wequests.
+- Wwite a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
-## Resources
+## Wesouwces
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
