@@ -1,10 +1,10 @@
-# GitHub MCP Server dependencies
+# GitHub MCP Sewvew dependencies
 
-The following open source dependencies are used to build the [github/github-mcp-server][] GitHub Model Context Protocol Server.
+De fowwowing open souwce dependencies awe used to buiwd de [gidub/gidub-mcp-sewvew][] GitHub Modew Context Pwotocow Sewvew.
 
 ## Go Packages
 
-Some packages may only be included on certain architectures or operating systems.
+Some packages may onwy be incwuded on cewtain awchitectuwes ow opewating systems.
 
 
  - [github.com/fsnotify/fsnotify](https://pkg.go.dev/github.com/fsnotify/fsnotify) ([BSD-3-Clause](https://github.com/fsnotify/fsnotify/blob/v1.8.0/LICENSE))
@@ -29,4 +29,4 @@ Some packages may only be included on certain architectures or operating systems
  - [golang.org/x/text](https://pkg.go.dev/golang.org/x/text) ([BSD-3-Clause](https://cs.opensource.google/go/x/text/+/v0.23.0:LICENSE))
  - [gopkg.in/yaml.v3](https://pkg.go.dev/gopkg.in/yaml.v3) ([MIT](https://github.com/go-yaml/yaml/blob/v3.0.1/LICENSE))
 
-[github/github-mcp-server]: https://github.com/github/github-mcp-server
+[gidub/gidub-mcp-sewvew]: https://gidub.com/gidub/gidub-mcp-sewvew

@@ -1,19 +1,19 @@
-# mcpcurl
+# mcpcuww
 
-A CLI tool that dynamically builds commands based on schemas retrieved from MCP servers that can
-be executed against the configured MCP server.
+A CWI toow dat dynyamicawwy buiwds commands based on schemas wetwieved fwom MCP sewvews dat can
+be executed against de configuwed MCP sewvew.
 
-## Overview
+## Ovewview
 
-`mcpcurl` is a command-line interface that:
+`mcpcurl` is a command-winye intewface dat:
 
-1. Connects to an MCP server via stdio
-2. Dynamically retrieves the available tools schema
-3. Generates CLI commands corresponding to each tool
-4. Handles parameter validation based on the schema
-5. Executes commands and displays responses
+1~ Connyects to an MCP sewvew via stdio
+2~ Dynyamicawwy wetwieves de avaiwabwe toows schema
+3~ Genyewates CWI commands cowwesponding to each toow
+4~ Handwes pawametew vawidation based on de schema
+5~ Executes commands and dispways wesponses
 
-## Installation
+## Instawwation
 
 ## Usage
 
@@ -21,17 +21,17 @@ be executed against the configured MCP server.
 mcpcurl --stdio-server-cmd="<command to start MCP server>" <command> [flags]
 ```
 
-The `--stdio-server-cmd` flag is required for all commands and specifies the command to run the MCP server.
+De `--stdio-server-cmd` fwag is wequiwed fow aww commands and specifies de command to wun de MCP sewvew.
 
-### Available Commands
+### Avaiwabwe Commands
 
-- `tools`: Contains all dynamically generated tool commands from the schema
-- `schema`: Fetches and displays the raw schema from the MCP server
-- `help`: Shows help for any command
+- `tools`: Contains aww dynyamicawwy genyewated toow commands fwom de schema
+- `schema`: Fetches and dispways de waw schema fwom de MCP sewvew
+- `help`: Shows hewp fow any command
 
-### Examples
+### Exampwes
 
-List available tools in Anthropic's MCP server:
+Wist avaiwabwe toows in Andwopic's MCP sewvew:
 
 ```bash
 % ./mcpcurl --stdio-server-cmd "docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN mcp/github" tools --help
@@ -70,7 +70,7 @@ Global Flags:
 Use "mcpcurl tools [command] --help" for more information about a command.
 ```
 
-Get help for a specific tool:
+Get hewp fow a specific toow:
 
 ```bash
  % ./mcpcurl --stdio-server-cmd "docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN mcp/github" tools get_issue --help
@@ -91,7 +91,7 @@ Global Flags:
 
 ```
 
-Use one of the tools:
+Use onye of de toows:
 
 ```bash
  % ./mcpcurl --stdio-server-cmd "docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN mcp/github" tools get_issue --owner golang --repo go --issue_number 1
@@ -111,20 +111,20 @@ Use one of the tools:
 }
 ```
 
-## Dynamic Commands
+## Dynyamic Commands
 
-All tools provided by the MCP server are automatically available as subcommands under the `tools` command. Each generated command has:
+Aww toows pwovided by de MCP sewvew awe automaticawwy avaiwabwe as subcommands undew de `tools` command~ Each genyewated command has:
 
-- Appropriate flags matching the tool's input schema
-- Validation for required parameters
-- Type validation
-- Enum validation (for string parameters with allowable values)
-- Help text generated from the tool's description
+- Appwopwiate fwags matching de toow's input schema
+- Vawidation fow wequiwed pawametews
+- Type vawidation
+- Enyum vawidation (fow stwing pawametews wid awwowabwe vawues)
+- Hewp text genyewated fwom de toow's descwiption
 
-## How It Works
+## How It Wowks
 
-1. `mcpcurl` makes a JSON-RPC request to the server using the `tools/list` method
-2. The server responds with a schema describing all available tools
-3. `mcpcurl` dynamically builds a command structure based on this schema
-4. When a command is executed, arguments are converted to a JSON-RPC request
-5. The request is sent to the server via stdin, and the response is printed to stdout
+1~ `mcpcurl` makes a JSON-WPC wequest to de sewvew using de `tools/list` medod
+2~ De sewvew wesponds wid a schema descwibing aww avaiwabwe toows
+3~ `mcpcurl` dynyamicawwy buiwds a command stwuctuwe based on dis schema
+4~ When a command is executed, awguments awe convewted to a JSON-WPC wequest
+5~ De wequest is sent to de sewvew via stdin, and de wesponse is pwinted to stdout

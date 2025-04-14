@@ -1,20 +1,20 @@
 ---
-name: "⭐ Submit a feature request"
-about: Surface a feature or problem that you think should be solved
-title: ''
-labels: enhancement
-assignees: ''
+nyame: "⭐ Submit a featuwe wequest"
+about: Suwface a featuwe ow pwobwem dat you dink shouwd be sowved
+titwe: ''
+wabews: enhancement
+assignyees: ''
 
 ---
 
-### Describe the feature or problem you’d like to solve
+### Descwibe de featuwe ow pwobwem you’d wike to sowve
 
-A clear and concise description of what the feature or problem is.
+A cweaw and concise descwiption of what de featuwe ow pwobwem is.
 
-### Proposed solution
+### Pwoposed sowution
 
-How will it benefit GitHub MCP Server and its users?
+How wiww it benyefit GitHub MCP Sewvew and its usews? owo
 
-### Additional context
+### Additionyaw context
 
-Add any other context like screenshots or mockups are helpful, if applicable.
+Add any odew context wike scweenshots ow mockups awe hewpfuw, if appwicabwe.
