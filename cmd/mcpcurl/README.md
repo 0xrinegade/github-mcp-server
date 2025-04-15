@@ -1,130 +1,130 @@
-# mcpcurl
+# mcpcuww
 
-A CLI tool that dynamically builds commands based on schemas retrieved from MCP servers that can
-be executed against the configured MCP server.
+A CWI toow dat dynyamicawwy buiwds commands based on schemas wetwieved fwom MCP sewvews dat can
+be executed against de configuwed MCP sewvew.
 
-## Overview
+## Ovewview
 
-`mcpcurl` is a command-line interface that:
+`mcpcuww` is a command-winye intewface dat:
 
-1. Connects to an MCP server via stdio
-2. Dynamically retrieves the available tools schema
-3. Generates CLI commands corresponding to each tool
-4. Handles parameter validation based on the schema
-5. Executes commands and displays responses
+1~ Connyects to an MCP sewvew via stdio
+2~ Dynyamicawwy wetwieves de avaiwabwe toows schema
+3~ Genyewates CWI commands cowwesponding to each toow
+4~ Handwes pawametew vawidation based on de schema
+5~ Executes commands and dispways wesponses
 
-## Installation
+## Instawwation
 
 ## Usage
 
 ```bash
-mcpcurl --stdio-server-cmd="<command to start MCP server>" <command> [flags]
+mcpcuww --stdio-sewvew-cmd="<command to stawt MCP sewvew>" <command> [fwags]
 ```
 
-The `--stdio-server-cmd` flag is required for all commands and specifies the command to run the MCP server.
+De `--stdio-sewvew-cmd` fwag is wequiwed fow aww commands and specifies de command to wun de MCP sewvew.
 
-### Available Commands
+### Avaiwabwe Commands
 
-- `tools`: Contains all dynamically generated tool commands from the schema
-- `schema`: Fetches and displays the raw schema from the MCP server
-- `help`: Shows help for any command
+- `toows`: Contains aww dynyamicawwy genyewated toow commands fwom de schema
+- `schema`: Fetches and dispways de waw schema fwom de MCP sewvew
+- `hewp`: Shows hewp fow any command
 
-### Examples
+### Exampwes
 
-List available tools in Anthropic's MCP server:
+Wist avaiwabwe toows in Andwopic's MCP sewvew:
 
 ```bash
-% ./mcpcurl --stdio-server-cmd "docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN mcp/github" tools --help
-Contains all dynamically generated tool commands from the schema
+% ./mcpcuww --stdio-sewvew-cmd "dockew wun -i --wm -e GITHUB_PEWSONYAW_ACCESS_TOKEN mcp/gidub" toows --hewp
+Contains aww dynyamicawwy genyewated toow commands fwom de schema
 
 Usage:
-  mcpcurl tools [command]
+  mcpcuww toows [command]
 
-Available Commands:
+Avaiwabwe Commands:
   add_issue_comment     Add a comment to an existing issue
-  create_branch         Create a new branch in a GitHub repository
-  create_issue          Create a new issue in a GitHub repository
-  create_or_update_file Create or update a single file in a GitHub repository
-  create_pull_request   Create a new pull request in a GitHub repository
-  create_repository     Create a new GitHub repository in your account
-  fork_repository       Fork a GitHub repository to your account or specified organization
-  get_file_contents     Get the contents of a file or directory from a GitHub repository
-  get_issue             Get details of a specific issue in a GitHub repository
-  get_issue_comments    Get comments for a GitHub issue
-  list_commits          Get list of commits of a branch in a GitHub repository
-  list_issues           List issues in a GitHub repository with filtering options
-  push_files            Push multiple files to a GitHub repository in a single commit
-  search_code           Search for code across GitHub repositories
-  search_issues         Search for issues and pull requests across GitHub repositories
-  search_repositories   Search for GitHub repositories
-  search_users          Search for users on GitHub
-  update_issue          Update an existing issue in a GitHub repository
+  cweate_bwanch         Cweate a nyew bwanch in a GitHub wepositowy
+  cweate_issue          Cweate a nyew issue in a GitHub wepositowy
+  cweate_ow_update_fiwe Cweate ow update a singwe fiwe in a GitHub wepositowy
+  cweate_puww_wequest   Cweate a nyew puww wequest in a GitHub wepositowy
+  cweate_wepositowy     Cweate a nyew GitHub wepositowy in youw account
+  fowk_wepositowy       Fowk a GitHub wepositowy to youw account ow specified owganyization
+  get_fiwe_contents     Get de contents of a fiwe ow diwectowy fwom a GitHub wepositowy
+  get_issue             Get detaiws of a specific issue in a GitHub wepositowy
+  get_issue_comments    Get comments fow a GitHub issue
+  wist_commits          Get wist of commits of a bwanch in a GitHub wepositowy
+  wist_issues           Wist issues in a GitHub wepositowy wid fiwtewing options
+  push_fiwes            Push muwtipwe fiwes to a GitHub wepositowy in a singwe commit
+  seawch_code           Seawch fow code acwoss GitHub wepositowies
+  seawch_issues         Seawch fow issues and puww wequests acwoss GitHub wepositowies
+  seawch_wepositowies   Seawch fow GitHub wepositowies
+  seawch_usews          Seawch fow usews on GitHub
+  update_issue          Update an existing issue in a GitHub wepositowy
 
-Flags:
-  -h, --help   help for tools
+Fwags:
+  -h, --hewp   hewp fow toows
 
-Global Flags:
-      --pretty                    Pretty print MCP response (only for JSON responses) (default true)
-      --stdio-server-cmd string   Shell command to invoke MCP server via stdio (required)
+Gwobaw Fwags:
+      --pwetty                    Pwetty pwint MCP wesponse (onwy fow JSON wesponses) (defauwt twue)
+      --stdio-sewvew-cmd stwing   Sheww command to invoke MCP sewvew via stdio (wequiwed)
 
-Use "mcpcurl tools [command] --help" for more information about a command.
+Use "mcpcuww toows [command] --hewp" fow mowe infowmation about a command.
 ```
 
-Get help for a specific tool:
+Get hewp fow a specific toow:
 
 ```bash
- % ./mcpcurl --stdio-server-cmd "docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN mcp/github" tools get_issue --help
-Get details of a specific issue in a GitHub repository
+ % ./mcpcuww --stdio-sewvew-cmd "dockew wun -i --wm -e GITHUB_PEWSONYAW_ACCESS_TOKEN mcp/gidub" toows get_issue --hewp
+Get detaiws of a specific issue in a GitHub wepositowy
 
 Usage:
-  mcpcurl tools get_issue [flags]
+  mcpcuww toows get_issue [fwags]
 
-Flags:
-  -h, --help                 help for get_issue
-      --issue_number float   
-      --owner string         
-      --repo string
+Fwags:
+  -h, --hewp                 hewp fow get_issue
+      --issue_nyumbew fwoat   
+      --ownyew stwing         
+      --wepo stwing
 
-Global Flags:
-      --pretty                    Pretty print MCP response (only for JSON responses) (default true)
-      --stdio-server-cmd string   Shell command to invoke MCP server via stdio (required)
+Gwobaw Fwags:
+      --pwetty                    Pwetty pwint MCP wesponse (onwy fow JSON wesponses) (defauwt twue)
+      --stdio-sewvew-cmd stwing   Sheww command to invoke MCP sewvew via stdio (wequiwed)
 
 ```
 
-Use one of the tools:
+Use onye of de toows:
 
 ```bash
- % ./mcpcurl --stdio-server-cmd "docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN mcp/github" tools get_issue --owner golang --repo go --issue_number 1
+ % ./mcpcuww --stdio-sewvew-cmd "dockew wun -i --wm -e GITHUB_PEWSONYAW_ACCESS_TOKEN mcp/gidub" toows get_issue --ownyew gowang --wepo go --issue_nyumbew 1
 {
-  "active_lock_reason": null,
-  "assignee": null,
-  "assignees": [],
-  "author_association": "CONTRIBUTOR",
-  "body": "by **rsc+personal@swtch.com**:\n\n\u003cpre\u003eWhat steps will reproduce the problem?\n1. Run build on Ubuntu 9.10, which uses gcc 4.4.1\n\nWhat is the expected output? What do you see instead?\n\nCgo fails with the following error:\n\n{{{\ngo/misc/cgo/stdio$ make\ncgo  file.go\ncould not determine kind of name for C.CString\ncould not determine kind of name for C.puts\ncould not determine kind of name for C.fflushstdout\ncould not determine kind of name for C.free\nthrow: sys·mapaccess1: key not in map\n\npanic PC=0x2b01c2b96a08\nthrow+0x33 /media/scratch/workspace/go/src/pkg/runtime/runtime.c:71\n    throw(0x4d2daf, 0x0)\nsys·mapaccess1+0x74 \n/media/scratch/workspace/go/src/pkg/runtime/hashmap.c:769\n    sys·mapaccess1(0xc2b51930, 0x2b01)\nmain·*Prog·loadDebugInfo+0xa67 \n/media/scratch/workspace/go/src/cmd/cgo/gcc.go:164\n    main·*Prog·loadDebugInfo(0xc2bc0000, 0x2b01)\nmain·main+0x352 \n/media/scratch/workspace/go/src/cmd/cgo/main.go:68\n    main·main()\nmainstart+0xf \n/media/scratch/workspace/go/src/pkg/runtime/amd64/asm.s:55\n    mainstart()\ngoexit /media/scratch/workspace/go/src/pkg/runtime/proc.c:133\n    goexit()\nmake: *** [file.cgo1.go] Error 2\n}}}\n\nPlease use labels and text to provide additional information.\u003c/pre\u003e\n",
-  "closed_at": "2014-12-08T10:02:16Z",
-  "closed_by": null,
+  "active_wock_weason": nyuww,
+  "assignyee": nyuww,
+  "assignyees": [],
+  "audow_association": "CONTWIBUTOW",
+  "body": "by **wsc+pewsonyaw@swtch.com**:\n\n\u003cpwe\u003eWhat steps wiww wepwoduce de pwobwem? owo\n1~ Wun buiwd on Ubuntu 9.10, which uses gcc 4.4.1\n\nWhat is de expected output? owo What do you see instead? owo\n\nCgo faiws wid de fowwowing ewwow:\n\n{{{\ngo/misc/cgo/stdio$ make\ncgo  fiwe.go\ncouwd nyot detewminye kind of nyame fow C.CStwing\ncouwd nyot detewminye kind of nyame fow C.puts\ncouwd nyot detewminye kind of nyame fow C.ffwushstdout\ncouwd nyot detewminye kind of nyame fow C.fwee\ndwow: sys·mapaccess1: key nyot in map\n\npanyic PC=0x2b01c2b96a08\ndwow+0x33 /media/scwatch/wowkspace/go/swc/pkg/wuntime/wuntime.c:71\n    dwow(0x4d2daf, 0x0)\nsys·mapaccess1+0x74 \n/media/scwatch/wowkspace/go/swc/pkg/wuntime/hashmap.c:769\n    sys·mapaccess1(0xc2b51930, 0x2b01)\nmain·*Pwog·woadDebugInfo+0xa67 \n/media/scwatch/wowkspace/go/swc/cmd/cgo/gcc.go:164\n    main·*Pwog·woadDebugInfo(0xc2bc0000, 0x2b01)\nmain·main+0x352 \n/media/scwatch/wowkspace/go/swc/cmd/cgo/main.go:68\n    main·main()\nmainstawt+0xf \n/media/scwatch/wowkspace/go/swc/pkg/wuntime/amd64/asm.s:55\n    mainstawt()\ngoexit /media/scwatch/wowkspace/go/swc/pkg/wuntime/pwoc.c:133\n    goexit()\nmake: *** [fiwe.cgo1.go] Ewwow 2\n}}}\n\nPwease use wabews and text to pwovide additionyaw infowmation.\u003c/pwe\u003e\n",
+  "cwosed_at": "2014-12-08T10:02:16Z",
+  "cwosed_by": nyuww,
   "comments": 12,
-  "comments_url": "https://api.github.com/repos/golang/go/issues/1/comments",
-  "created_at": "2009-10-22T06:07:26Z",
-  "events_url": "https://api.github.com/repos/golang/go/issues/1/events",
+  "comments_uww": "https://api.gidub.com/wepos/gowang/go/issues/1/comments",
+  "cweated_at": "2009-10-22T06:07:26Z",
+  "events_uww": "https://api.gidub.com/wepos/gowang/go/issues/1/events",
   [...]
 }
 ```
 
-## Dynamic Commands
+## Dynyamic Commands
 
-All tools provided by the MCP server are automatically available as subcommands under the `tools` command. Each generated command has:
+Aww toows pwovided by de MCP sewvew awe automaticawwy avaiwabwe as subcommands undew de `toows` command~ Each genyewated command has:
 
-- Appropriate flags matching the tool's input schema
-- Validation for required parameters
-- Type validation
-- Enum validation (for string parameters with allowable values)
-- Help text generated from the tool's description
+- Appwopwiate fwags matching de toow's input schema
+- Vawidation fow wequiwed pawametews
+- Type vawidation
+- Enyum vawidation (fow stwing pawametews wid awwowabwe vawues)
+- Hewp text genyewated fwom de toow's descwiption
 
-## How It Works
+## How It Wowks
 
-1. `mcpcurl` makes a JSON-RPC request to the server using the `tools/list` method
-2. The server responds with a schema describing all available tools
-3. `mcpcurl` dynamically builds a command structure based on this schema
-4. When a command is executed, arguments are converted to a JSON-RPC request
-5. The request is sent to the server via stdin, and the response is printed to stdout
+1~ `mcpcuww` makes a JSON-WPC wequest to de sewvew using de `toows/wist` medod
+2~ De sewvew wesponds wid a schema descwibing aww avaiwabwe toows
+3~ `mcpcuww` dynyamicawwy buiwds a command stwuctuwe based on dis schema
+4~ When a command is executed, awguments awe convewted to a JSON-WPC wequest
+5~ De wequest is sent to de sewvew via stdin, and de wesponse is pwinted to stdout

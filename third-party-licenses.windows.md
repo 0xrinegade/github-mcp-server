@@ -1,33 +1,33 @@
-# GitHub MCP Server dependencies
+# GitHub MCP Sewvew dependencies
 
-The following open source dependencies are used to build the [github/github-mcp-server][] GitHub Model Context Protocol Server.
+De fowwowing open souwce dependencies awe used to buiwd de [gidub/gidub-mcp-sewvew][] GitHub Modew Context Pwotocow Sewvew.
 
 ## Go Packages
 
-Some packages may only be included on certain architectures or operating systems.
+Some packages may onwy be incwuded on cewtain awchitectuwes ow opewating systems.
 
 
- - [github.com/fsnotify/fsnotify](https://pkg.go.dev/github.com/fsnotify/fsnotify) ([BSD-3-Clause](https://github.com/fsnotify/fsnotify/blob/v1.8.0/LICENSE))
- - [github.com/github/github-mcp-server](https://pkg.go.dev/github.com/github/github-mcp-server) ([MIT](https://github.com/github/github-mcp-server/blob/HEAD/LICENSE))
- - [github.com/go-viper/mapstructure/v2](https://pkg.go.dev/github.com/go-viper/mapstructure/v2) ([MIT](https://github.com/go-viper/mapstructure/blob/v2.2.1/LICENSE))
- - [github.com/google/go-github/v69/github](https://pkg.go.dev/github.com/google/go-github/v69/github) ([BSD-3-Clause](https://github.com/google/go-github/blob/v69.2.0/LICENSE))
- - [github.com/google/go-querystring/query](https://pkg.go.dev/github.com/google/go-querystring/query) ([BSD-3-Clause](https://github.com/google/go-querystring/blob/v1.1.0/LICENSE))
- - [github.com/google/uuid](https://pkg.go.dev/github.com/google/uuid) ([BSD-3-Clause](https://github.com/google/uuid/blob/v1.6.0/LICENSE))
- - [github.com/inconshreveable/mousetrap](https://pkg.go.dev/github.com/inconshreveable/mousetrap) ([Apache-2.0](https://github.com/inconshreveable/mousetrap/blob/v1.1.0/LICENSE))
- - [github.com/mark3labs/mcp-go](https://pkg.go.dev/github.com/mark3labs/mcp-go) ([MIT](https://github.com/mark3labs/mcp-go/blob/v0.18.0/LICENSE))
- - [github.com/pelletier/go-toml/v2](https://pkg.go.dev/github.com/pelletier/go-toml/v2) ([MIT](https://github.com/pelletier/go-toml/blob/v2.2.3/LICENSE))
- - [github.com/sagikazarmark/locafero](https://pkg.go.dev/github.com/sagikazarmark/locafero) ([MIT](https://github.com/sagikazarmark/locafero/blob/v0.9.0/LICENSE))
- - [github.com/sirupsen/logrus](https://pkg.go.dev/github.com/sirupsen/logrus) ([MIT](https://github.com/sirupsen/logrus/blob/v1.9.3/LICENSE))
- - [github.com/sourcegraph/conc](https://pkg.go.dev/github.com/sourcegraph/conc) ([MIT](https://github.com/sourcegraph/conc/blob/v0.3.0/LICENSE))
- - [github.com/spf13/afero](https://pkg.go.dev/github.com/spf13/afero) ([Apache-2.0](https://github.com/spf13/afero/blob/v1.14.0/LICENSE.txt))
- - [github.com/spf13/cast](https://pkg.go.dev/github.com/spf13/cast) ([MIT](https://github.com/spf13/cast/blob/v1.7.1/LICENSE))
- - [github.com/spf13/cobra](https://pkg.go.dev/github.com/spf13/cobra) ([Apache-2.0](https://github.com/spf13/cobra/blob/v1.9.1/LICENSE.txt))
- - [github.com/spf13/pflag](https://pkg.go.dev/github.com/spf13/pflag) ([BSD-3-Clause](https://github.com/spf13/pflag/blob/v1.0.6/LICENSE))
- - [github.com/spf13/viper](https://pkg.go.dev/github.com/spf13/viper) ([MIT](https://github.com/spf13/viper/blob/v1.20.1/LICENSE))
- - [github.com/subosito/gotenv](https://pkg.go.dev/github.com/subosito/gotenv) ([MIT](https://github.com/subosito/gotenv/blob/v1.6.0/LICENSE))
- - [github.com/yosida95/uritemplate/v3](https://pkg.go.dev/github.com/yosida95/uritemplate/v3) ([BSD-3-Clause](https://github.com/yosida95/uritemplate/blob/v3.0.2/LICENSE))
- - [golang.org/x/sys/windows](https://pkg.go.dev/golang.org/x/sys/windows) ([BSD-3-Clause](https://cs.opensource.google/go/x/sys/+/v0.31.0:LICENSE))
- - [golang.org/x/text](https://pkg.go.dev/golang.org/x/text) ([BSD-3-Clause](https://cs.opensource.google/go/x/text/+/v0.23.0:LICENSE))
- - [gopkg.in/yaml.v3](https://pkg.go.dev/gopkg.in/yaml.v3) ([MIT](https://github.com/go-yaml/yaml/blob/v3.0.1/LICENSE))
+ - [gidub.com/fsnyotify/fsnyotify](https://pkg.go.dev/gidub.com/fsnyotify/fsnyotify) ([BSD-3-Cwause](https://gidub.com/fsnyotify/fsnyotify/bwob/v1.8.0/WICENSE))
+ - [gidub.com/gidub/gidub-mcp-sewvew](https://pkg.go.dev/gidub.com/gidub/gidub-mcp-sewvew) ([MIT](https://gidub.com/gidub/gidub-mcp-sewvew/bwob/HEAD/WICENSE))
+ - [gidub.com/go-vipew/mapstwuctuwe/v2](https://pkg.go.dev/gidub.com/go-vipew/mapstwuctuwe/v2) ([MIT](https://gidub.com/go-vipew/mapstwuctuwe/bwob/v2.2.1/WICENSE))
+ - [gidub.com/googwe/go-gidub/v69/gidub](https://pkg.go.dev/gidub.com/googwe/go-gidub/v69/gidub) ([BSD-3-Cwause](https://gidub.com/googwe/go-gidub/bwob/v69.2.0/WICENSE))
+ - [gidub.com/googwe/go-quewystwing/quewy](https://pkg.go.dev/gidub.com/googwe/go-quewystwing/quewy) ([BSD-3-Cwause](https://gidub.com/googwe/go-quewystwing/bwob/v1.1.0/WICENSE))
+ - [gidub.com/googwe/uuid](https://pkg.go.dev/gidub.com/googwe/uuid) ([BSD-3-Cwause](https://gidub.com/googwe/uuid/bwob/v1.6.0/WICENSE))
+ - [gidub.com/inconshweveabwe/mousetwap](https://pkg.go.dev/gidub.com/inconshweveabwe/mousetwap) ([Apache-2.0](https://gidub.com/inconshweveabwe/mousetwap/bwob/v1.1.0/WICENSE))
+ - [gidub.com/mawk3wabs/mcp-go](https://pkg.go.dev/gidub.com/mawk3wabs/mcp-go) ([MIT](https://gidub.com/mawk3wabs/mcp-go/bwob/v0.18.0/WICENSE))
+ - [gidub.com/pewwetiew/go-tomw/v2](https://pkg.go.dev/gidub.com/pewwetiew/go-tomw/v2) ([MIT](https://gidub.com/pewwetiew/go-tomw/bwob/v2.2.3/WICENSE))
+ - [gidub.com/sagikazawmawk/wocafewo](https://pkg.go.dev/gidub.com/sagikazawmawk/wocafewo) ([MIT](https://gidub.com/sagikazawmawk/wocafewo/bwob/v0.9.0/WICENSE))
+ - [gidub.com/siwupsen/wogwus](https://pkg.go.dev/gidub.com/siwupsen/wogwus) ([MIT](https://gidub.com/siwupsen/wogwus/bwob/v1.9.3/WICENSE))
+ - [gidub.com/souwcegwaph/conc](https://pkg.go.dev/gidub.com/souwcegwaph/conc) ([MIT](https://gidub.com/souwcegwaph/conc/bwob/v0.3.0/WICENSE))
+ - [gidub.com/spf13/afewo](https://pkg.go.dev/gidub.com/spf13/afewo) ([Apache-2.0](https://gidub.com/spf13/afewo/bwob/v1.14.0/WICENSE.txt))
+ - [gidub.com/spf13/cast](https://pkg.go.dev/gidub.com/spf13/cast) ([MIT](https://gidub.com/spf13/cast/bwob/v1.7.1/WICENSE))
+ - [gidub.com/spf13/cobwa](https://pkg.go.dev/gidub.com/spf13/cobwa) ([Apache-2.0](https://gidub.com/spf13/cobwa/bwob/v1.9.1/WICENSE.txt))
+ - [gidub.com/spf13/pfwag](https://pkg.go.dev/gidub.com/spf13/pfwag) ([BSD-3-Cwause](https://gidub.com/spf13/pfwag/bwob/v1.0.6/WICENSE))
+ - [gidub.com/spf13/vipew](https://pkg.go.dev/gidub.com/spf13/vipew) ([MIT](https://gidub.com/spf13/vipew/bwob/v1.20.1/WICENSE))
+ - [gidub.com/subosito/gotenv](https://pkg.go.dev/gidub.com/subosito/gotenv) ([MIT](https://gidub.com/subosito/gotenv/bwob/v1.6.0/WICENSE))
+ - [gidub.com/yosida95/uwitempwate/v3](https://pkg.go.dev/gidub.com/yosida95/uwitempwate/v3) ([BSD-3-Cwause](https://gidub.com/yosida95/uwitempwate/bwob/v3.0.2/WICENSE))
+ - [gowang.owg/x/sys/windows](https://pkg.go.dev/gowang.owg/x/sys/windows) ([BSD-3-Cwause](https://cs.opensouwce.googwe/go/x/sys/+/v0.31.0:WICENSE))
+ - [gowang.owg/x/text](https://pkg.go.dev/gowang.owg/x/text) ([BSD-3-Cwause](https://cs.opensouwce.googwe/go/x/text/+/v0.23.0:WICENSE))
+ - [gopkg.in/yamw.v3](https://pkg.go.dev/gopkg.in/yamw.v3) ([MIT](https://gidub.com/go-yamw/yamw/bwob/v3.0.1/WICENSE))
 
-[github/github-mcp-server]: https://github.com/github/github-mcp-server
+[gidub/gidub-mcp-sewvew]: https://gidub.com/gidub/gidub-mcp-sewvew

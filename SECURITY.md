@@ -1,31 +1,31 @@
-Thanks for helping make GitHub safe for everyone.
+Danks fow hewping make GitHub safe fow evewyonye.
 
-# Security
+# Secuwity
 
-GitHub takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub).
+GitHub takes de secuwity of ouw softwawe pwoducts and sewvices sewiouswy, incwuding aww of de open souwce code wepositowies manyaged dwough ouw GitHub owganyizations, such as [GitHub](https://gidub.com/GitHub).
 
-Even though [open source repositories are outside of the scope of our bug bounty program](https://bounty.github.com/index.html#scope) and therefore not eligible for bounty rewards, we will ensure that your finding gets passed along to the appropriate maintainers for remediation. 
+Even dough [open souwce wepositowies awe outside of de scope of ouw bug bounty pwogwam](https://bounty.gidub.com/index.htmw#scope) and dewefowe nyot ewigibwe fow bounty wewawds, we wiww ensuwe dat youw finding gets passed awong to de appwopwiate maintainyews fow wemediation~ 
 
-## Reporting Security Issues
+## Wepowting Secuwity Issues
 
-If you believe you have found a security vulnerability in any GitHub-owned repository, please report it to us through coordinated disclosure.
+If you bewieve you have found a secuwity vuwnyewabiwity in any GitHub-ownyed wepositowy, pwease wepowt it to us dwough coowdinyated discwosuwe.
 
-**Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
+**Pwease do nyot wepowt secuwity vuwnyewabiwities dwough pubwic GitHub issues, discussions, ow puww wequests.**
 
-Instead, please send an email to opensource-security[@]github.com.
+Instead, pwease send an emaiw to opensouwce-secuwity[@]gidub.com.
 
-Please include as much of the information listed below as you can to help us better understand and resolve the issue:
+Pwease incwude as much of de infowmation wisted bewow as you can to hewp us bettew undewstand and wesowve de issue:
 
-  * The type of issue (e.g., buffer overflow, SQL injection, or cross-site scripting)
-  * Full paths of source file(s) related to the manifestation of the issue
-  * The location of the affected source code (tag/branch/commit or direct URL)
-  * Any special configuration required to reproduce the issue
-  * Step-by-step instructions to reproduce the issue
-  * Proof-of-concept or exploit code (if possible)
-  * Impact of the issue, including how an attacker might exploit the issue
+  * De type of issue (e.g., buffew uvwfwow, SQW injection, ow cwoss-site scwipting)
+  * Fuww pads of souwce fiwe(s) wewated to de manyifestation of de issue
+  * De wocation of de affected souwce code (tag/bwanch/commit ow diwect UWW)
+  * Any speciaw configuwation wequiwed to wepwoduce de issue
+  * Step-by-step instwuctions to wepwoduce de issue
+  * Pwoof-of-concept ow expwoit code (if possibwe)
+  * Impact of de issue, incwuding how an attackew might expwoit de issue
 
-This information will help us triage your report more quickly.
+Dis infowmation wiww hewp us twiage youw wepowt mowe quickwy.
 
-## Policy
+## Powicy
 
-See [GitHub's Safe Harbor Policy](https://docs.github.com/en/site-policy/security-policies/github-bug-bounty-program-legal-safe-harbor#1-safe-harbor-terms)
+See [GitHub's Safe Hawbow Powicy](https://docs.gidub.com/en/site-powicy/secuwity-powicies/gidub-bug-bounty-pwogwam-wegaw-safe-hawbow#1-safe-hawbow-tewms)
