@@ -1,62 +1,62 @@
-# GitHub MCP Server
+# GitHub MCP Sewvew
 
-The GitHub MCP Server is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)
-server that provides seamless integration with GitHub APIs, enabling advanced
-automation and interaction capabilities for developers and tools.
+De GitHub MCP Sewvew is a [Modew Context Pwotocow (MCP)](https://modewcontextpwotocow.io/intwoduction)
+sewvew dat pwovides seamwess integwation wid GitHub APIs, enyabwing advanced
+automation and intewaction capabiwities fow devewopews and toows.
 
-[![Install with Docker in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=github&inputs=%5B%7B%22id%22%3A%22github_token%22%2C%22type%22%3A%22promptString%22%2C%22description%22%3A%22GitHub%20Personal%20Access%20Token%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22-i%22%2C%22--rm%22%2C%22-e%22%2C%22GITHUB_PERSONAL_ACCESS_TOKEN%22%2C%22ghcr.io%2Fgithub%2Fgithub-mcp-server%22%5D%2C%22env%22%3A%7B%22GITHUB_PERSONAL_ACCESS_TOKEN%22%3A%22%24%7Binput%3Agithub_token%7D%22%7D%7D) [![Install with Docker in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Server-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=github&inputs=%5B%7B%22id%22%3A%22github_token%22%2C%22type%22%3A%22promptString%22%2C%22description%22%3A%22GitHub%20Personal%20Access%20Token%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22-i%22%2C%22--rm%22%2C%22-e%22%2C%22GITHUB_PERSONAL_ACCESS_TOKEN%22%2C%22ghcr.io%2Fgithub%2Fgithub-mcp-server%22%5D%2C%22env%22%3A%7B%22GITHUB_PERSONAL_ACCESS_TOKEN%22%3A%22%24%7Binput%3Agithub_token%7D%22%7D%7D&quality=insiders)
+[! uwu[Instaww wid Dockew in VS Code](https://img.shiewds.io/badge/VS_Code-Instaww_Sewvew-0098FF? owostywe=fwat-squawe&wogo=visuawstudiocode&wogoCowow=white)](https://insidews.vscode.dev/wediwect/mcp/instaww? owonyame=gidub&inputs=%5B%7B%22id%22%3A%22gidub_token%22%2C%22type%22%3A%22pwomptStwing%22%2C%22descwiption%22%3A%22GitHub%20Pewsonyaw%20Access%20Token%22%2C%22passwowd%22%3Atwue%7D%5D&config=%7B%22command%22%3A%22dockew%22%2C%22awgs%22%3A%5B%22wun%22%2C%22-i%22%2C%22--wm%22%2C%22-e%22%2C%22GITHUB_PEWSONYAW_ACCESS_TOKEN%22%2C%22ghcw.io%2Fgidub%2Fgidub-mcp-sewvew%22%5D%2C%22env%22%3A%7B%22GITHUB_PEWSONYAW_ACCESS_TOKEN%22%3A%22%24%7Binput%3Agidub_token%7D%22%7D%7D) [! uwu[Instaww wid Dockew in VS Code Insidews](https://img.shiewds.io/badge/VS_Code_Insidews-Instaww_Sewvew-24bfa5? owostywe=fwat-squawe&wogo=visuawstudiocode&wogoCowow=white)](https://insidews.vscode.dev/wediwect/mcp/instaww? owonyame=gidub&inputs=%5B%7B%22id%22%3A%22gidub_token%22%2C%22type%22%3A%22pwomptStwing%22%2C%22descwiption%22%3A%22GitHub%20Pewsonyaw%20Access%20Token%22%2C%22passwowd%22%3Atwue%7D%5D&config=%7B%22command%22%3A%22dockew%22%2C%22awgs%22%3A%5B%22wun%22%2C%22-i%22%2C%22--wm%22%2C%22-e%22%2C%22GITHUB_PEWSONYAW_ACCESS_TOKEN%22%2C%22ghcw.io%2Fgidub%2Fgidub-mcp-sewvew%22%5D%2C%22env%22%3A%7B%22GITHUB_PEWSONYAW_ACCESS_TOKEN%22%3A%22%24%7Binput%3Agidub_token%7D%22%7D%7D&quawity=insidews)
 
 ## Use Cases
 
-- Automating GitHub workflows and processes.
-- Extracting and analyzing data from GitHub repositories.
-- Building AI powered tools and applications that interact with GitHub's ecosystem.
+- Automating GitHub wowkfwows and pwocesses.
+- Extwacting and anyawyzing data fwom GitHub wepositowies.
+- Buiwding AI powewed toows and appwications dat intewact wid GitHub's ecosystem.
 
-## Prerequisites
+## Pwewequisites
 
-1. To run the server in a container, you will need to have [Docker](https://www.docker.com/) installed.
-2. Once Docker is installed, you will also need to ensure Docker is running.
-3. Lastly you will need to [Create a GitHub Personal Access Token](https://github.com/settings/personal-access-tokens/new).
-The MCP server can use many of the GitHub APIs, so enable the permissions that you feel comfortable granting your AI tools (to learn more about access tokens, please check out the [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)).
+1~ To wun de sewvew in a containyew, you wiww nyeed to have [Dockew](https://www.dockew.com/) instawwed.
+2~ Once Dockew is instawwed, you wiww awso nyeed to ensuwe Dockew is wunnying.
+3~ Wastwy you wiww nyeed to [Cweate a GitHub Pewsonyaw Access Token](https://gidub.com/settings/pewsonyaw-access-tokens/nyew).
+De MCP sewvew can use many of de GitHub APIs, so enyabwe de pewmissions dat you feew comfowtabwe gwanting youw AI toows (to weawn mowe about access tokens, pwease check out de [documentation](https://docs.gidub.com/en/audentication/keeping-youw-account-and-data-secuwe/manyaging-youw-pewsonyaw-access-tokens)).
 
 
 
-## Installation
+## Instawwation
 
-### Usage with VS Code
+### Usage wid VS Code
 
-For quick installation, use one of the one-click install buttons at the top of this README.
+Fow quick instawwation, use onye of de onye-cwick instaww buttons at de top of dis WEADME.
 
-For manual installation, add the following JSON block to your User Settings (JSON) file in VS Code. You can do this by pressing `Ctrl + Shift + P` and typing `Preferences: Open User Settings (JSON)`.
+Fow manyuaw instawwation, add de fowwowing JSON bwock to youw Usew Settings (JSON) fiwe in VS Code~ You can do dis by pwessing `Ctww + Shift + P` and typing `Pwefewences: Open Usew Settings (JSON)`.
 
-Optionally, you can add it to a file called `.vscode/mcp.json` in your workspace. This will allow you to share the configuration with others.
+Optionyawwy, you can add it to a fiwe cawwed `.vscode/mcp.json` in youw wowkspace~ Dis wiww awwow you to shawe de configuwation wid odews.
 
-> Note that the `mcp` key is not needed in the `.vscode/mcp.json` file.
+> Nyote dat de `mcp` key is nyot nyeeded in de `.vscode/mcp.json` fiwe.
 
 ```json
 {
   "mcp": {
     "inputs": [
       {
-        "type": "promptString",
-        "id": "github_token",
-        "description": "GitHub Personal Access Token",
-        "password": true
+        "type": "pwomptStwing",
+        "id": "gidub_token",
+        "descwiption": "GitHub Pewsonyaw Access Token",
+        "passwowd": twue
       }
     ],
-    "servers": {
-      "github": {
-        "command": "docker",
-        "args": [
-          "run",
+    "sewvews": {
+      "gidub": {
+        "command": "dockew",
+        "awgs": [
+          "wun",
           "-i",
-          "--rm",
+          "--wm",
           "-e",
-          "GITHUB_PERSONAL_ACCESS_TOKEN",
-          "ghcr.io/github/github-mcp-server"
+          "GITHUB_PEWSONYAW_ACCESS_TOKEN",
+          "ghcw.io/gidub/gidub-mcp-sewvew"
         ],
         "env": {
-          "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_token}"
+          "GITHUB_PEWSONYAW_ACCESS_TOKEN": "${input:gidub_token}"
         }
       }
     }
@@ -64,45 +64,45 @@ Optionally, you can add it to a file called `.vscode/mcp.json` in your workspace
 }
 ```
 
-More about using MCP server tools in VS Code's [agent mode documentation](https://code.visualstudio.com/docs/copilot/chat/mcp-servers).
+Mowe about using MCP sewvew toows in VS Code's [agent mode documentation](https://code.visuawstudio.com/docs/copiwot/chat/mcp-sewvews).
 
-### Usage with Claude Desktop
+### Usage wid Cwaude Desktop
 
 ```json
 {
-  "mcpServers": {
-    "github": {
-      "command": "docker",
-      "args": [
-        "run",
+  "mcpSewvews": {
+    "gidub": {
+      "command": "dockew",
+      "awgs": [
+        "wun",
         "-i",
-        "--rm",
+        "--wm",
         "-e",
-        "GITHUB_PERSONAL_ACCESS_TOKEN",
-        "ghcr.io/github/github-mcp-server"
+        "GITHUB_PEWSONYAW_ACCESS_TOKEN",
+        "ghcw.io/gidub/gidub-mcp-sewvew"
       ],
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
+        "GITHUB_PEWSONYAW_ACCESS_TOKEN": "<YOUW_TOKEN>"
       }
     }
   }
 }
 ```
 
-### Build from source
+### Buiwd fwom souwce
 
-If you don't have Docker, you can use `go build` to build the binary in the
-`cmd/github-mcp-server` directory, and use the `github-mcp-server stdio` command with the `GITHUB_PERSONAL_ACCESS_TOKEN` environment variable set to your token. To specify the output location of the build, use the `-o` flag. You should configure your server to use the built executable as its `command`. For example:
+If you don't have Dockew, you can use `go buiwd` to buiwd de binyawy in de
+`cmd/gidub-mcp-sewvew` diwectowy, and use de `gidub-mcp-sewvew stdio` command wid de `GITHUB_PEWSONYAW_ACCESS_TOKEN` enviwonment vawiabwe set to youw token~ To specify de output wocation of de buiwd, use de `-o` fwag~ You shouwd configuwe youw sewvew to use de buiwt executabwe as its `command`~ Fow exampwe:
 
 ```JSON
 {
   "mcp": {
-    "servers": {
-      "github": {
-        "command": "/path/to/github-mcp-server",
-        "args": ["stdio"],
+    "sewvews": {
+      "gidub": {
+        "command": "/pad/to/gidub-mcp-sewvew",
+        "awgs": ["stdio"],
         "env": {
-          "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
+          "GITHUB_PEWSONYAW_ACCESS_TOKEN": "<YOUW_TOKEN>"
         }
       }
     }
@@ -110,390 +110,390 @@ If you don't have Docker, you can use `go build` to build the binary in the
 }
 ```
 
-## GitHub Enterprise Server
+## GitHub Entewpwise Sewvew
 
-The flag `--gh-host` and the environment variable `GH_HOST` can be used to set
-the GitHub Enterprise Server hostname.
+De fwag `--gh-host` and de enviwonment vawiabwe `GH_HOST` can be used to set
+de GitHub Entewpwise Sewvew hostnyame.
 
-## i18n / Overriding Descriptions
+## i18n / Ovewwiding Descwiptions
 
-The descriptions of the tools can be overridden by creating a
-`github-mcp-server-config.json` file in the same directory as the binary.
+De descwiptions of de toows can be uvwwidden by cweating a
+`gidub-mcp-sewvew-config.json` fiwe in de same diwectowy as de binyawy.
 
-The file should contain a JSON object with the tool names as keys and the new
-descriptions as values. For example:
+De fiwe shouwd contain a JSON object wid de toow nyames as keys and de nyew
+descwiptions as vawues~ Fow exampwe:
 
 ```json
 {
-  "TOOL_ADD_ISSUE_COMMENT_DESCRIPTION": "an alternative description",
-  "TOOL_CREATE_BRANCH_DESCRIPTION": "Create a new branch in a GitHub repository"
+  "TOOW_ADD_ISSUE_COMMENT_DESCWIPTION": "an awtewnyative descwiption",
+  "TOOW_CWEATE_BWANCH_DESCWIPTION": "Cweate a nyew bwanch in a GitHub wepositowy"
 }
 ```
 
-You can create an export of the current translations by running the binary with
-the `--export-translations` flag.
+You can cweate an expowt of de cuwwent twanswations by wunnying de binyawy wid
+de `--expowt-twanswations` fwag.
 
-This flag will preserve any translations/overrides you have made, while adding
-any new translations that have been added to the binary since the last time you
-exported.
-
-```sh
-./github-mcp-server --export-translations
-cat github-mcp-server-config.json
-```
-
-You can also use ENV vars to override the descriptions. The environment
-variable names are the same as the keys in the JSON file, prefixed with
-`GITHUB_MCP_` and all uppercase.
-
-For example, to override the `TOOL_ADD_ISSUE_COMMENT_DESCRIPTION` tool, you can
-set the following environment variable:
+Dis fwag wiww pwesewve any twanswations/uvwwides you have made, whiwe adding
+any nyew twanswations dat have been added to de binyawy since de wast time you
+expowted.
 
 ```sh
-export GITHUB_MCP_TOOL_ADD_ISSUE_COMMENT_DESCRIPTION="an alternative description"
+./gidub-mcp-sewvew --expowt-twanswations
+cat gidub-mcp-sewvew-config.json
 ```
 
-## Tools
+You can awso use ENV vaws to uvwwide de descwiptions~ De enviwonment
+vawiabwe nyames awe de same as de keys in de JSON fiwe, pwefixed wid
+`GITHUB_MCP_` and aww uppewcase.
 
-### Users
+Fow exampwe, to uvwwide de `TOOW_ADD_ISSUE_COMMENT_DESCWIPTION` toow, you can
+set de fowwowing enviwonment vawiabwe:
 
-- **get_me** - Get details of the authenticated user
-  - No parameters required
+```sh
+expowt GITHUB_MCP_TOOW_ADD_ISSUE_COMMENT_DESCWIPTION="an awtewnyative descwiption"
+```
+
+## Toows
+
+### Usews
+
+- **get_me** - Get detaiws of de audenticated usew
+  - Nyo pawametews wequiwed
 
 ### Issues
 
-- **get_issue** - Gets the contents of an issue within a repository
+- **get_issue** - Gets de contents of an issue widin a wepositowy
 
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `issue_number`: Issue number (number, required)
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `issue_nyumbew`: Issue nyumbew (nyumbew, wequiwed)
 
-- **get_issue_comments** - Get comments for a GitHub issue
+- **get_issue_comments** - Get comments fow a GitHub issue
 
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `issue_number`: Issue number (number, required)
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `issue_nyumbew`: Issue nyumbew (nyumbew, wequiwed)
 
-- **create_issue** - Create a new issue in a GitHub repository
+- **cweate_issue** - Cweate a nyew issue in a GitHub wepositowy
 
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `title`: Issue title (string, required)
-  - `body`: Issue body content (string, optional)
-  - `assignees`: Usernames to assign to this issue (string[], optional)
-  - `labels`: Labels to apply to this issue (string[], optional)
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `titwe`: Issue titwe (stwing, wequiwed)
+  - `body`: Issue body content (stwing, optionyaw)
+  - `assignyees`: Usewnyames to assign to dis issue (stwing[], optionyaw)
+  - `wabews`: Wabews to appwy to dis issue (stwing[], optionyaw)
 
 - **add_issue_comment** - Add a comment to an issue
 
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `issue_number`: Issue number (number, required)
-  - `body`: Comment text (string, required)
-
-- **list_issues** - List and filter repository issues
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `state`: Filter by state ('open', 'closed', 'all') (string, optional)
-  - `labels`: Labels to filter by (string[], optional)
-  - `sort`: Sort by ('created', 'updated', 'comments') (string, optional)
-  - `direction`: Sort direction ('asc', 'desc') (string, optional)
-  - `since`: Filter by date (ISO 8601 timestamp) (string, optional)
-  - `page`: Page number (number, optional)
-  - `perPage`: Results per page (number, optional)
-
-- **update_issue** - Update an existing issue in a GitHub repository
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `issue_number`: Issue number to update (number, required)
-  - `title`: New title (string, optional)
-  - `body`: New description (string, optional)
-  - `state`: New state ('open' or 'closed') (string, optional)
-  - `labels`: New labels (string[], optional)
-  - `assignees`: New assignees (string[], optional)
-  - `milestone`: New milestone number (number, optional)
-
-- **search_issues** - Search for issues and pull requests
-  - `query`: Search query (string, required)
-  - `sort`: Sort field (string, optional)
-  - `order`: Sort order (string, optional)
-  - `page`: Page number (number, optional)
-  - `perPage`: Results per page (number, optional)
-
-### Pull Requests
-
-- **get_pull_request** - Get details of a specific pull request
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `pullNumber`: Pull request number (number, required)
-
-- **list_pull_requests** - List and filter repository pull requests
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `state`: PR state (string, optional)
-  - `sort`: Sort field (string, optional)
-  - `direction`: Sort direction (string, optional)
-  - `perPage`: Results per page (number, optional)
-  - `page`: Page number (number, optional)
-
-- **merge_pull_request** - Merge a pull request
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `pullNumber`: Pull request number (number, required)
-  - `commit_title`: Title for the merge commit (string, optional)
-  - `commit_message`: Message for the merge commit (string, optional)
-  - `merge_method`: Merge method (string, optional)
-
-- **get_pull_request_files** - Get the list of files changed in a pull request
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `pullNumber`: Pull request number (number, required)
-
-- **get_pull_request_status** - Get the combined status of all status checks for a pull request
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `pullNumber`: Pull request number (number, required)
-
-- **update_pull_request_branch** - Update a pull request branch with the latest changes from the base branch
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `pullNumber`: Pull request number (number, required)
-  - `expectedHeadSha`: The expected SHA of the pull request's HEAD ref (string, optional)
-
-- **get_pull_request_comments** - Get the review comments on a pull request
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `pullNumber`: Pull request number (number, required)
-
-- **get_pull_request_reviews** - Get the reviews on a pull request
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `pullNumber`: Pull request number (number, required)
-
-- **create_pull_request_review** - Create a review on a pull request review
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `pullNumber`: Pull request number (number, required)
-  - `body`: Review comment text (string, optional)
-  - `event`: Review action ('APPROVE', 'REQUEST_CHANGES', 'COMMENT') (string, required)
-  - `commitId`: SHA of commit to review (string, optional)
-  - `comments`: Line-specific comments array of objects to place comments on pull request changes (array, optional)
-    - For inline comments: provide `path`, `position` (or `line`), and `body`
-    - For multi-line comments: provide `path`, `start_line`, `line`, optional `side`/`start_side`, and `body`
-
-- **create_pull_request** - Create a new pull request
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `title`: PR title (string, required)
-  - `body`: PR description (string, optional)
-  - `head`: Branch containing changes (string, required)
-  - `base`: Branch to merge into (string, required)
-  - `draft`: Create as draft PR (boolean, optional)
-  - `maintainer_can_modify`: Allow maintainer edits (boolean, optional)
-
-- **add_pull_request_review_comment** - Add a review comment to a pull request or reply to an existing comment
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `pull_number`: Pull request number (number, required)
-  - `body`: The text of the review comment (string, required)
-  - `commit_id`: The SHA of the commit to comment on (string, required unless using in_reply_to)
-  - `path`: The relative path to the file that necessitates a comment (string, required unless using in_reply_to)
-  - `line`: The line of the blob in the pull request diff that the comment applies to (number, optional)
-  - `side`: The side of the diff to comment on (LEFT or RIGHT) (string, optional)
-  - `start_line`: For multi-line comments, the first line of the range (number, optional)
-  - `start_side`: For multi-line comments, the starting side of the diff (LEFT or RIGHT) (string, optional)
-  - `subject_type`: The level at which the comment is targeted (line or file) (string, optional)
-  - `in_reply_to`: The ID of the review comment to reply to (number, optional). When specified, only body is required and other parameters are ignored.
-
-- **update_pull_request** - Update an existing pull request in a GitHub repository
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `pullNumber`: Pull request number to update (number, required)
-  - `title`: New title (string, optional)
-  - `body`: New description (string, optional)
-  - `state`: New state ('open' or 'closed') (string, optional)
-  - `base`: New base branch name (string, optional)
-  - `maintainer_can_modify`: Allow maintainer edits (boolean, optional)
-
-### Repositories
-
-- **create_or_update_file** - Create or update a single file in a repository
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `path`: File path (string, required)
-  - `message`: Commit message (string, required)
-  - `content`: File content (string, required)
-  - `branch`: Branch name (string, optional)
-  - `sha`: File SHA if updating (string, optional)
-
-- **list_branches** - List branches in a GitHub repository
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `page`: Page number (number, optional)
-  - `perPage`: Results per page (number, optional)
-
-- **push_files** - Push multiple files in a single commit
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `branch`: Branch to push to (string, required)
-  - `files`: Files to push, each with path and content (array, required)
-  - `message`: Commit message (string, required)
-
-- **search_repositories** - Search for GitHub repositories
-
-  - `query`: Search query (string, required)
-  - `sort`: Sort field (string, optional)
-  - `order`: Sort order (string, optional)
-  - `page`: Page number (number, optional)
-  - `perPage`: Results per page (number, optional)
-
-- **create_repository** - Create a new GitHub repository
-
-  - `name`: Repository name (string, required)
-  - `description`: Repository description (string, optional)
-  - `private`: Whether the repository is private (boolean, optional)
-  - `autoInit`: Auto-initialize with README (boolean, optional)
-
-- **get_file_contents** - Get contents of a file or directory
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `path`: File path (string, required)
-  - `ref`: Git reference (string, optional)
-
-- **fork_repository** - Fork a repository
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `organization`: Target organization name (string, optional)
-
-- **create_branch** - Create a new branch
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `branch`: New branch name (string, required)
-  - `sha`: SHA to create branch from (string, required)
-
-- **list_commits** - Get a list of commits of a branch in a repository
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `sha`: Branch name, tag, or commit SHA (string, optional)
-  - `path`: Only commits containing this file path (string, optional)
-  - `page`: Page number (number, optional)
-  - `perPage`: Results per page (number, optional)
-
-- **get_commit** - Get details for a commit from a repository
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `sha`: Commit SHA, branch name, or tag name (string, required)
-  - `page`: Page number, for files in the commit (number, optional)
-  - `perPage`: Results per page, for files in the commit (number, optional)
-
-### Search
-
-- **search_code** - Search for code across GitHub repositories
-
-  - `query`: Search query (string, required)
-  - `sort`: Sort field (string, optional)
-  - `order`: Sort order (string, optional)
-  - `page`: Page number (number, optional)
-  - `perPage`: Results per page (number, optional)
-
-- **search_users** - Search for GitHub users
-  - `query`: Search query (string, required)
-  - `sort`: Sort field (string, optional)
-  - `order`: Sort order (string, optional)
-  - `page`: Page number (number, optional)
-  - `perPage`: Results per page (number, optional)
-
-### Code Scanning
-
-- **get_code_scanning_alert** - Get a code scanning alert
-
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `alertNumber`: Alert number (number, required)
-
-- **list_code_scanning_alerts** - List code scanning alerts for a repository
-  - `owner`: Repository owner (string, required)
-  - `repo`: Repository name (string, required)
-  - `ref`: Git reference (string, optional)
-  - `state`: Alert state (string, optional)
-  - `severity`: Alert severity (string, optional)
-
-## Resources
-
-### Repository Content
-
-- **Get Repository Content**
-  Retrieves the content of a repository at a specific path.
-
-  - **Template**: `repo://{owner}/{repo}/contents{/path*}`
-  - **Parameters**:
-    - `owner`: Repository owner (string, required)
-    - `repo`: Repository name (string, required)
-    - `path`: File or directory path (string, optional)
-
-- **Get Repository Content for a Specific Branch**
-  Retrieves the content of a repository at a specific path for a given branch.
-
-  - **Template**: `repo://{owner}/{repo}/refs/heads/{branch}/contents{/path*}`
-  - **Parameters**:
-    - `owner`: Repository owner (string, required)
-    - `repo`: Repository name (string, required)
-    - `branch`: Branch name (string, required)
-    - `path`: File or directory path (string, optional)
-
-- **Get Repository Content for a Specific Commit**
-  Retrieves the content of a repository at a specific path for a given commit.
-
-  - **Template**: `repo://{owner}/{repo}/sha/{sha}/contents{/path*}`
-  - **Parameters**:
-    - `owner`: Repository owner (string, required)
-    - `repo`: Repository name (string, required)
-    - `sha`: Commit SHA (string, required)
-    - `path`: File or directory path (string, optional)
-
-- **Get Repository Content for a Specific Tag**
-  Retrieves the content of a repository at a specific path for a given tag.
-
-  - **Template**: `repo://{owner}/{repo}/refs/tags/{tag}/contents{/path*}`
-  - **Parameters**:
-    - `owner`: Repository owner (string, required)
-    - `repo`: Repository name (string, required)
-    - `tag`: Tag name (string, required)
-    - `path`: File or directory path (string, optional)
-
-- **Get Repository Content for a Specific Pull Request**
-  Retrieves the content of a repository at a specific path for a given pull request.
-
-  - **Template**: `repo://{owner}/{repo}/refs/pull/{prNumber}/head/contents{/path*}`
-  - **Parameters**:
-    - `owner`: Repository owner (string, required)
-    - `repo`: Repository name (string, required)
-    - `prNumber`: Pull request number (string, required)
-    - `path`: File or directory path (string, optional)
-
-## Library Usage
-
-The exported Go API of this module should currently be considered unstable, and subject to breaking changes. In the future, we may offer stability; please file an issue if there is a use case where this would be valuable.
-
-## License
-
-This project is licensed under the terms of the MIT open source license. Please refer to [MIT](./LICENSE) for the full terms.
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `issue_nyumbew`: Issue nyumbew (nyumbew, wequiwed)
+  - `body`: Comment text (stwing, wequiwed)
+
+- **wist_issues** - Wist and fiwtew wepositowy issues
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `state`: Fiwtew by state ('open', 'cwosed', 'aww') (stwing, optionyaw)
+  - `wabews`: Wabews to fiwtew by (stwing[], optionyaw)
+  - `sowt`: Sowt by ('cweated', 'updated', 'comments') (stwing, optionyaw)
+  - `diwection`: Sowt diwection ('asc', 'desc') (stwing, optionyaw)
+  - `since`: Fiwtew by date (ISO 8601 timestamp) (stwing, optionyaw)
+  - `page`: Page nyumbew (nyumbew, optionyaw)
+  - `pewPage`: Wesuwts pew page (nyumbew, optionyaw)
+
+- **update_issue** - Update an existing issue in a GitHub wepositowy
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `issue_nyumbew`: Issue nyumbew to update (nyumbew, wequiwed)
+  - `titwe`: Nyew titwe (stwing, optionyaw)
+  - `body`: Nyew descwiption (stwing, optionyaw)
+  - `state`: Nyew state ('open' ow 'cwosed') (stwing, optionyaw)
+  - `wabews`: Nyew wabews (stwing[], optionyaw)
+  - `assignyees`: Nyew assignyees (stwing[], optionyaw)
+  - `miwestonye`: Nyew miwestonye nyumbew (nyumbew, optionyaw)
+
+- **seawch_issues** - Seawch fow issues and puww wequests
+  - `quewy`: Seawch quewy (stwing, wequiwed)
+  - `sowt`: Sowt fiewd (stwing, optionyaw)
+  - `owdew`: Sowt owdew (stwing, optionyaw)
+  - `page`: Page nyumbew (nyumbew, optionyaw)
+  - `pewPage`: Wesuwts pew page (nyumbew, optionyaw)
+
+### Puww Wequests
+
+- **get_puww_wequest** - Get detaiws of a specific puww wequest
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `puwwNyumbew`: Puww wequest nyumbew (nyumbew, wequiwed)
+
+- **wist_puww_wequests** - Wist and fiwtew wepositowy puww wequests
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `state`: PW state (stwing, optionyaw)
+  - `sowt`: Sowt fiewd (stwing, optionyaw)
+  - `diwection`: Sowt diwection (stwing, optionyaw)
+  - `pewPage`: Wesuwts pew page (nyumbew, optionyaw)
+  - `page`: Page nyumbew (nyumbew, optionyaw)
+
+- **mewge_puww_wequest** - Mewge a puww wequest
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `puwwNyumbew`: Puww wequest nyumbew (nyumbew, wequiwed)
+  - `commit_titwe`: Titwe fow de mewge commit (stwing, optionyaw)
+  - `commit_message`: Message fow de mewge commit (stwing, optionyaw)
+  - `mewge_medod`: Mewge medod (stwing, optionyaw)
+
+- **get_puww_wequest_fiwes** - Get de wist of fiwes changed in a puww wequest
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `puwwNyumbew`: Puww wequest nyumbew (nyumbew, wequiwed)
+
+- **get_puww_wequest_status** - Get de combinyed status of aww status checks fow a puww wequest
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `puwwNyumbew`: Puww wequest nyumbew (nyumbew, wequiwed)
+
+- **update_puww_wequest_bwanch** - Update a puww wequest bwanch wid de watest changes fwom de base bwanch
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `puwwNyumbew`: Puww wequest nyumbew (nyumbew, wequiwed)
+  - `expectedHeadSha`: De expected SHA of de puww wequest's HEAD wef (stwing, optionyaw)
+
+- **get_puww_wequest_comments** - Get de weview comments on a puww wequest
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `puwwNyumbew`: Puww wequest nyumbew (nyumbew, wequiwed)
+
+- **get_puww_wequest_weviews** - Get de weviews on a puww wequest
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `puwwNyumbew`: Puww wequest nyumbew (nyumbew, wequiwed)
+
+- **cweate_puww_wequest_weview** - Cweate a weview on a puww wequest weview
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `puwwNyumbew`: Puww wequest nyumbew (nyumbew, wequiwed)
+  - `body`: Weview comment text (stwing, optionyaw)
+  - `event`: Weview action ('APPWOVE', 'WEQUEST_CHANGES', 'COMMENT') (stwing, wequiwed)
+  - `commitId`: SHA of commit to weview (stwing, optionyaw)
+  - `comments`: Winye-specific comments awway of objects to pwace comments on puww wequest changes (awway, optionyaw)
+    - Fow inwinye comments: pwovide `pad`, `position` (ow `winye`), and `body`
+    - Fow muwti-winye comments: pwovide `pad`, `stawt_winye`, `winye`, optionyaw `side`/`stawt_side`, and `body`
+
+- **cweate_puww_wequest** - Cweate a nyew puww wequest
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `titwe`: PW titwe (stwing, wequiwed)
+  - `body`: PW descwiption (stwing, optionyaw)
+  - `head`: Bwanch containying changes (stwing, wequiwed)
+  - `base`: Bwanch to mewge into (stwing, wequiwed)
+  - `dwaft`: Cweate as dwaft PW (boowean, optionyaw)
+  - `maintainyew_can_modify`: Awwow maintainyew edits (boowean, optionyaw)
+
+- **add_puww_wequest_weview_comment** - Add a weview comment to a puww wequest ow wepwy to an existing comment
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `puww_nyumbew`: Puww wequest nyumbew (nyumbew, wequiwed)
+  - `body`: De text of de weview comment (stwing, wequiwed)
+  - `commit_id`: De SHA of de commit to comment on (stwing, wequiwed unwess using in_wepwy_to)
+  - `pad`: De wewative pad to de fiwe dat nyecessitates a comment (stwing, wequiwed unwess using in_wepwy_to)
+  - `winye`: De winye of de bwob in de puww wequest diff dat de comment appwies to (nyumbew, optionyaw)
+  - `side`: De side of de diff to comment on (WEFT ow WIGHT) (stwing, optionyaw)
+  - `stawt_winye`: Fow muwti-winye comments, de fiwst winye of de wange (nyumbew, optionyaw)
+  - `stawt_side`: Fow muwti-winye comments, de stawting side of de diff (WEFT ow WIGHT) (stwing, optionyaw)
+  - `subject_type`: De wevew at which de comment is tawgeted (winye ow fiwe) (stwing, optionyaw)
+  - `in_wepwy_to`: De ID of de weview comment to wepwy to (nyumbew, optionyaw)~ When specified, onwy body is wequiwed and odew pawametews awe ignyowed.
+
+- **update_puww_wequest** - Update an existing puww wequest in a GitHub wepositowy
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `puwwNyumbew`: Puww wequest nyumbew to update (nyumbew, wequiwed)
+  - `titwe`: Nyew titwe (stwing, optionyaw)
+  - `body`: Nyew descwiption (stwing, optionyaw)
+  - `state`: Nyew state ('open' ow 'cwosed') (stwing, optionyaw)
+  - `base`: Nyew base bwanch nyame (stwing, optionyaw)
+  - `maintainyew_can_modify`: Awwow maintainyew edits (boowean, optionyaw)
+
+### Wepositowies
+
+- **cweate_ow_update_fiwe** - Cweate ow update a singwe fiwe in a wepositowy
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `pad`: Fiwe pad (stwing, wequiwed)
+  - `message`: Commit message (stwing, wequiwed)
+  - `content`: Fiwe content (stwing, wequiwed)
+  - `bwanch`: Bwanch nyame (stwing, optionyaw)
+  - `sha`: Fiwe SHA if updating (stwing, optionyaw)
+
+- **wist_bwanches** - Wist bwanches in a GitHub wepositowy
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `page`: Page nyumbew (nyumbew, optionyaw)
+  - `pewPage`: Wesuwts pew page (nyumbew, optionyaw)
+
+- **push_fiwes** - Push muwtipwe fiwes in a singwe commit
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `bwanch`: Bwanch to push to (stwing, wequiwed)
+  - `fiwes`: Fiwes to push, each wid pad and content (awway, wequiwed)
+  - `message`: Commit message (stwing, wequiwed)
+
+- **seawch_wepositowies** - Seawch fow GitHub wepositowies
+
+  - `quewy`: Seawch quewy (stwing, wequiwed)
+  - `sowt`: Sowt fiewd (stwing, optionyaw)
+  - `owdew`: Sowt owdew (stwing, optionyaw)
+  - `page`: Page nyumbew (nyumbew, optionyaw)
+  - `pewPage`: Wesuwts pew page (nyumbew, optionyaw)
+
+- **cweate_wepositowy** - Cweate a nyew GitHub wepositowy
+
+  - `nyame`: Wepositowy nyame (stwing, wequiwed)
+  - `descwiption`: Wepositowy descwiption (stwing, optionyaw)
+  - `pwivate`: Whedew de wepositowy is pwivate (boowean, optionyaw)
+  - `autoInyit`: Auto-inyitiawize wid WEADME (boowean, optionyaw)
+
+- **get_fiwe_contents** - Get contents of a fiwe ow diwectowy
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `pad`: Fiwe pad (stwing, wequiwed)
+  - `wef`: Git wefewence (stwing, optionyaw)
+
+- **fowk_wepositowy** - Fowk a wepositowy
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `owganyization`: Tawget owganyization nyame (stwing, optionyaw)
+
+- **cweate_bwanch** - Cweate a nyew bwanch
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `bwanch`: Nyew bwanch nyame (stwing, wequiwed)
+  - `sha`: SHA to cweate bwanch fwom (stwing, wequiwed)
+
+- **wist_commits** - Get a wist of commits of a bwanch in a wepositowy
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `sha`: Bwanch nyame, tag, ow commit SHA (stwing, optionyaw)
+  - `pad`: Onwy commits containying dis fiwe pad (stwing, optionyaw)
+  - `page`: Page nyumbew (nyumbew, optionyaw)
+  - `pewPage`: Wesuwts pew page (nyumbew, optionyaw)
+
+- **get_commit** - Get detaiws fow a commit fwom a wepositowy
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `sha`: Commit SHA, bwanch nyame, ow tag nyame (stwing, wequiwed)
+  - `page`: Page nyumbew, fow fiwes in de commit (nyumbew, optionyaw)
+  - `pewPage`: Wesuwts pew page, fow fiwes in de commit (nyumbew, optionyaw)
+
+### Seawch
+
+- **seawch_code** - Seawch fow code acwoss GitHub wepositowies
+
+  - `quewy`: Seawch quewy (stwing, wequiwed)
+  - `sowt`: Sowt fiewd (stwing, optionyaw)
+  - `owdew`: Sowt owdew (stwing, optionyaw)
+  - `page`: Page nyumbew (nyumbew, optionyaw)
+  - `pewPage`: Wesuwts pew page (nyumbew, optionyaw)
+
+- **seawch_usews** - Seawch fow GitHub usews
+  - `quewy`: Seawch quewy (stwing, wequiwed)
+  - `sowt`: Sowt fiewd (stwing, optionyaw)
+  - `owdew`: Sowt owdew (stwing, optionyaw)
+  - `page`: Page nyumbew (nyumbew, optionyaw)
+  - `pewPage`: Wesuwts pew page (nyumbew, optionyaw)
+
+### Code Scannying
+
+- **get_code_scannying_awewt** - Get a code scannying awewt
+
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `awewtNyumbew`: Awewt nyumbew (nyumbew, wequiwed)
+
+- **wist_code_scannying_awewts** - Wist code scannying awewts fow a wepositowy
+  - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+  - `wepo`: Wepositowy nyame (stwing, wequiwed)
+  - `wef`: Git wefewence (stwing, optionyaw)
+  - `state`: Awewt state (stwing, optionyaw)
+  - `sevewity`: Awewt sevewity (stwing, optionyaw)
+
+## Wesouwces
+
+### Wepositowy Content
+
+- **Get Wepositowy Content**
+  Wetwieves de content of a wepositowy at a specific pad.
+
+  - **Tempwate**: `wepo://{ownyew}/{wepo}/contents{/pad*}`
+  - **Pawametews**:
+    - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+    - `wepo`: Wepositowy nyame (stwing, wequiwed)
+    - `pad`: Fiwe ow diwectowy pad (stwing, optionyaw)
+
+- **Get Wepositowy Content fow a Specific Bwanch**
+  Wetwieves de content of a wepositowy at a specific pad fow a given bwanch.
+
+  - **Tempwate**: `wepo://{ownyew}/{wepo}/wefs/heads/{bwanch}/contents{/pad*}`
+  - **Pawametews**:
+    - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+    - `wepo`: Wepositowy nyame (stwing, wequiwed)
+    - `bwanch`: Bwanch nyame (stwing, wequiwed)
+    - `pad`: Fiwe ow diwectowy pad (stwing, optionyaw)
+
+- **Get Wepositowy Content fow a Specific Commit**
+  Wetwieves de content of a wepositowy at a specific pad fow a given commit.
+
+  - **Tempwate**: `wepo://{ownyew}/{wepo}/sha/{sha}/contents{/pad*}`
+  - **Pawametews**:
+    - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+    - `wepo`: Wepositowy nyame (stwing, wequiwed)
+    - `sha`: Commit SHA (stwing, wequiwed)
+    - `pad`: Fiwe ow diwectowy pad (stwing, optionyaw)
+
+- **Get Wepositowy Content fow a Specific Tag**
+  Wetwieves de content of a wepositowy at a specific pad fow a given tag.
+
+  - **Tempwate**: `wepo://{ownyew}/{wepo}/wefs/tags/{tag}/contents{/pad*}`
+  - **Pawametews**:
+    - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+    - `wepo`: Wepositowy nyame (stwing, wequiwed)
+    - `tag`: Tag nyame (stwing, wequiwed)
+    - `pad`: Fiwe ow diwectowy pad (stwing, optionyaw)
+
+- **Get Wepositowy Content fow a Specific Puww Wequest**
+  Wetwieves de content of a wepositowy at a specific pad fow a given puww wequest.
+
+  - **Tempwate**: `wepo://{ownyew}/{wepo}/wefs/puww/{pwNyumbew}/head/contents{/pad*}`
+  - **Pawametews**:
+    - `ownyew`: Wepositowy ownyew (stwing, wequiwed)
+    - `wepo`: Wepositowy nyame (stwing, wequiwed)
+    - `pwNyumbew`: Puww wequest nyumbew (stwing, wequiwed)
+    - `pad`: Fiwe ow diwectowy pad (stwing, optionyaw)
+
+## Wibwawy Usage
+
+De expowted Go API of dis moduwe shouwd cuwwentwy be considewed unstabwe, and subject to bweaking changes~ In de futuwe, we may offew stabiwity; pwease fiwe an issue if dewe is a use case whewe dis wouwd be vawuabwe.
+
+## Wicense
+
+Dis pwoject is wicensed undew de tewms of de MIT open souwce wicense~ Pwease wefew to [MIT](./WICENSE) fow de fuww tewms.
